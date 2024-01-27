@@ -16,5 +16,3 @@ const createGallary = galleryItems
    .join("");
     console.log(createGallary);
 galleryContainer.insertAdjacentHTML('beforeend', createGallary);
-
-
