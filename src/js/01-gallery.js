@@ -18,7 +18,7 @@ const createGallary = galleryItems
 galleryContainer.insertAdjacentHTML('beforeend', createGallary);
 
 
-function openModalImage() {
+
     galleryContainer.addEventListener("click", (event) => {
         event.preventDefault();
       if (event.target.nodeName === 'IMG') {
@@ -30,8 +30,8 @@ function openModalImage() {
      instance.show();
       } 
     });
-  }
   
-  openModalImage();
+  
+  //openModalImage();
 
  
